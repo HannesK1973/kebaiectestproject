@@ -1,0 +1,83 @@
+********************************************************************************
+* SYMBOL-TABLE                                                                 *
+********************************************************************************
+
+    Symbol-Table:
+      
+      ErrorSy '%ERROR'
+      TypeSy 'TStruct'  STRUCT TStruct
+          Symbol-Table:
+            StructElemSy 'x' [O: 0 -- L: 4] : DINT
+            StructElemSy 'y' [O: 4 -- L: 4] : DINT
+            StructElemSy 'z' [O: 8 -- L: 4] : DINT
+      SVVariableSy 'sv_Bool' [L: 1] Module[C:\Kemro\TestProjectsIec\Zuweisung\Zuweisung\system\system.sv]
+          : BOOL
+            Attributes:
+                   Groups:
+                                     SegmentType = 'NON_RETAIN'
+                   CheckSecurity = 0
+                   CheckBandWith = 0
+                   DisplayLevel = -1
+                   InputLevel = -1
+           := +1
+      SVVariableSy 'sv_endless' [L: 1] Module[C:\Kemro\TestProjectsIec\Zuweisung\Zuweisung\system\system.sv]
+          : BOOL
+            Attributes:
+                   Groups:
+                                     SegmentType = 'NON_RETAIN'
+                   CheckSecurity = 0
+                   CheckBandWith = 0
+                   DisplayLevel = -1
+                   InputLevel = -1
+           := +0
+      SVVariableSy 'sv_Struct' [L: 12] Module[C:\Kemro\TestProjectsIec\Zuweisung\Zuweisung\system\system.sv]
+          : TStruct
+            Attributes:
+                   Groups:
+                                     SegmentType = 'NON_RETAIN'
+                   CheckSecurity = 0
+                   CheckBandWith = 0
+                   DisplayLevel = -1
+                   InputLevel = -1
+       FuncUnitSy '%FU%.system'    used space: 0 byte(s) 	additional free space for online modification: -1 byte(s)
+      ResourceSy: '%resource.system: '
+
+
+
+
+********************************************************************************
+*   I N F O   O F   R E S O U R C E :   %resource.system
+********************************************************************************
+
+
+
+********************************************************************************
+* SYSTEM-VARIABLE table                                                        *
+********************************************************************************
+
+SYSTEMVARAIBLE 'sv_Bool' in module 'C:\Kemro\TestProjectsIec\Zuweisung\Zuweisung\system\system.sv'
+    type: 'BOOL' type-code: a9 7b 2c 14 42 43 b2 b9 d2 c5 93 ec 26 8b 62 f5
+SYSTEMVARAIBLE 'sv_endless' in module 'C:\Kemro\TestProjectsIec\Zuweisung\Zuweisung\system\system.sv'
+    type: 'BOOL' type-code: a9 7b 2c 14 42 43 b2 b9 d2 c5 93 ec 26 8b 62 f5
+SYSTEMVARAIBLE 'sv_Struct' in module 'C:\Kemro\TestProjectsIec\Zuweisung\Zuweisung\system\system.sv'
+    type: 'TStruct' type-code: 59 1f 68 96 65 69 b4 57 67 c2 6d 71 07 68 0f c1
+
+
+********************************************************************************
+* FUNCTION table                                                               *
+********************************************************************************
+
+
+
+********************************************************************************
+* INDEX Of BuiltIns Table                                                      *
+********************************************************************************
+
+
+
+************************************************************
+* DISASSEMBLE: %FU%.system
+************************************************************
+
+  offset of debugeable code: 8h
+

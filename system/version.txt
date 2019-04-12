@@ -1,0 +1,4 @@
+[GENERAL]
+BuiltWithSetup=6.43
+[LIBRARY]
+LibVersion=04.30
