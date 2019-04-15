@@ -7,6 +7,7 @@ FUNCTIONAL_UNIT system #DUMMY_EDIT_BLOCK
 
 VAR
  algo : systemAB;
+ DINT : myVar;
 END_VAR
 
 
